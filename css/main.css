@@ -46,8 +46,7 @@ img { width: 600px; }
     right: 0;
     left: 0;
     bottom: 0;
-    background-color: #FFF;
-    opacity: 0.1;
+    background-color: transparent;
     z-index: -9;
 }
 
