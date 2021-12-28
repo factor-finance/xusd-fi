@@ -1,9 +1,28 @@
+@media (max-width: 1439px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1599px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1919px) {
+    html {
+        font-size: 21px;
+    }
+}
+
 body {
     display: flex;
     align-content: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    font-family: "proxima-nova", sans-serif;
 }
 
 img { width: 600px; }
@@ -30,4 +49,65 @@ img { width: 600px; }
     background-color: #FFF;
     opacity: 0.1;
     z-index: -9;
+}
+
+.fg-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    margin: 2rem 5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img.logo {
+    width: 1em;
+    height: 1em;
+    margin-bottom: -0.2em;
+    display: inline-block;
+}
+
+img.arrow {
+    width: 1em;
+    height: 1em;
+    margin-left: 0.2em;
+    margin-bottom: -0.2em;
+    display: inline-block;
+}
+
+.cta:hover img.arrow {
+    transition: transform .3s cubic-bezier(.215,.61,.355,1),-webkit-transform .3s cubic-bezier(.215,.61,.355,1);
+    -webkit-transform: translateX(20%);
+    transform: translateX(20%);
+}
+
+.cta {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 3rem;
+    max-width: 500px;
+}
+
+.cta h1 {
+    font-weight: 700;
+    letter-spacing: .01em;
+    line-height: 1.15em;
+    font-size: 2.6rem;
+    margin-bottom: 2.32rem;
+}
+
+.cta h3 {
+    font-size: 1em;
+}
+
+.banner {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
 }
