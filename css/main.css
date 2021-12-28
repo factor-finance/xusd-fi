@@ -58,7 +58,13 @@ img { width: 600px; }
     left: 0;
     bottom: 0;
     color: #fff;
-    margin: 2rem 5rem;
+    margin: 1rem;
+}
+
+@media (min-width: 40em) {
+    .fg-overlay {
+        margin: 2rem 5rem;
+    }
 }
 
 a {
