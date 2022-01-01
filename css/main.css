@@ -101,10 +101,15 @@ img.arrow {
     letter-spacing: .01em;
     line-height: 1.15em;
     font-size: 2.6rem;
-    margin-bottom: 2.32rem;
+    margin-bottom: 0.5rem;
+}
+
+.cta h2 {
+    margin-top: 0;
 }
 
 .cta h3 {
+    margin-top: 2.32rem;
     font-size: 1em;
 }
 
