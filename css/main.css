@@ -83,7 +83,7 @@ img.arrow {
     display: inline-block;
 }
 
-.cta:hover img.arrow {
+a:hover img.arrow {
     transition: transform .3s cubic-bezier(.215,.61,.355,1),-webkit-transform .3s cubic-bezier(.215,.61,.355,1);
     -webkit-transform: translateX(20%);
     transform: translateX(20%);
@@ -112,6 +112,10 @@ img.arrow {
 .cta h3 {
     margin-top: 2.32rem;
     font-size: 1em;
+}
+
+.dot {
+    padding: 0.5em;
 }
 
 .banner {
